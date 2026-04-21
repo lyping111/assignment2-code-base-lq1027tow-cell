@@ -46,6 +46,7 @@
         }
     </style>
     <div class="container">
+     <form action="register.php" method="post">
         <h1>REGISTER</h1>
         <label for="username">Username</label>
         <br>
@@ -62,6 +63,7 @@
         <br>
         <a href="login.html">dont have an account? click me to login</a>
     </div>
+     </form>
  
 </body>
 </html>
