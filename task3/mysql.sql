@@ -13,6 +13,15 @@ CREATE TABLE `product` (
 INSERT INTO `product` (`Id`, `r_date`, `tracking_number`, `cbm`, `weight`) VALUES
 (1, '2026-04-20 00:59:31.000000', '2gfgggcchhhhhvbhhb2', '250', '50');
 
+UPDATE `product` SET `tracking_number`="" WHERE Id=1;
+DELETE FROM `product` WHERE Id=1;
+
+ALTER TABLE `product`
+  ADD abc TEXT
+
+ALTER TABLE `product`
+  DROP abc
+
 ALTER TABLE `product`
   ADD PRIMARY KEY (`Id`);
 COMMIT
